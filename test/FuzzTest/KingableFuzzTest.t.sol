@@ -74,14 +74,14 @@ contract KingableFuzzTest is KingableUnitTest {
     }
 
     // ------------------------------------------------ Fuzz test: isKing ----------------------------------
-    /// @notice Fuzz testing isKing. 
+    /// @notice Fuzz testing isKing.
     /// @param _randomUserAddress The random users address.
     function testFuzz_IsKing(address _randomUserAddress) external {
-        // Prank as _random user. 
+        // Prank as _random user.
         vm.prank(_randomUserAddress);
         bool state = kingable.isKing(_king);
 
-        // Assert _king is true. 
+        // Assert _king is true.
         assertEq(state, true);
     }
 }
