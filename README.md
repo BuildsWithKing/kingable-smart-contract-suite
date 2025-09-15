@@ -36,6 +36,12 @@ This repository includes:
 
 ---
 
+## 📽 Kingable in Action 
+
+### [WATCH VIDEO](https://1drv.ms/v/c/4292b05ee508e173/EThWwoYNSCFMrNU4HfaWtYcBdnAvKRJ9Tcop-M6pqEmgPw?e=QjucGU)
+
+---
+
 ## 🧪 Testing
 
 ### ✅ Unit Tests (`KingableTest.t.sol`)
